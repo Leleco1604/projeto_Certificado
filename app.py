@@ -53,7 +53,7 @@ for indice, linha in enumerate(sheet_alunos.iter_rows(min_row=2)):
     desenhar.text((750,1770), data_inicio, fill='black' , font= font_data)
     desenhar.text((750,1930), data_termino, fill='black' , font= font_data)
 
-    desenhar.text((220,1930), data_emissao, fill='black', font= font_data)
+    desenhar.text((2220,1930), data_emissao, fill='black', font= font_data)
 
 
     image.save(f'./{indice} {nome_participante} certificado.png')
